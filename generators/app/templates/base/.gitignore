@@ -1,0 +1,10 @@
+# Git Ignore File, don't edit this file.
+# This file is used to ignore files and folders in your repository.
+# For more information, visit: https://git-scm.com/docs/gitignore
+
+# Ignore the node_modules folder
+node_modules/
+
+# Ignore your build outputs
+build/
+web-ext-artifacts/

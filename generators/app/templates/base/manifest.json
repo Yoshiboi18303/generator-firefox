@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "{{name}}",
+    "version": "{{version}}",
+    "description": "{{description}}",
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["{{matches}}"],
+            "js": ["extension.js"]
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{{id}}"
+        }
+    }
+}

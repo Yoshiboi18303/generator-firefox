@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "node_modules/": true, // exclude node_modules, for simplicity.
+    },
+    "recommendations": [
+        // These are optional to add, they're pretty helpful though.
+        "firefox-devtools.vscode-firefox-debug",
+        "esbenp.prettier-vscode",
+    ]
+}

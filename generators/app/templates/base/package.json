@@ -1,0 +1,16 @@
+{
+    "name": "{{name}}",
+    "version": "{{version}}",
+    "description": "{{description}}",
+    "private": true,
+    "scripts": {
+        "start": "web-ext run --firefox",
+        "start:developeredition": "web-ext run --firefox=firefoxdeveloperedition",
+        "start:beta": "web-ext run --firefox=beta",
+        "start:nightly": "web-ext run --firefox=nightly",
+        "package": "web-ext build --overwrite-dest"
+    },
+    "devDependencies": {
+        "web-ext": "latest"
+    }
+}
